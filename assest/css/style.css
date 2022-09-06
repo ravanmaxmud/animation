@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 1300px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/22/00/14/universe-2250310_960_720.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    position: relative;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    color: aqua;
+}
+.border1 img{
+    position: absolute;
+    border-radius: 100%;
+    width: 30%;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    animation: huso 7s linear infinite;
+}
+@keyframes huso {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.border2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    border-radius: 100%;
+    left: 20%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    animation: copudiv 7s linear infinite;
+}
+@keyframes copudiv {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.border2 .copu{
+    position: absolute;
+    border-radius: 100%;
+    width: 20%;
+    top: 28px;
+}
+.border3{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 3px solid blue;
+    border-radius: 100%;
+    left: 15%;
+    top: 15%;
+    transform: translate(-50%,-50%);
+    animation: sadixdiv 7s linear infinite;
+}
+@keyframes sadixdiv {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.border3 .sadix{
+    position: absolute;
+    border-radius: 100%;
+    width: 12%;
+    top: 90px;
+}
+.border4{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border: 3px solid greenyellow;
+    border-radius: 100%;
+    left: 10%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    animation: eqaqa 7s linear infinite;
+}
+@keyframes eqaqa {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.border5{
+    margin-top: 100px;
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    border: 3px solid black;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.border4 .eqaqa{
+    position: absolute;
+    border-radius: 100%;
+    width: 12%;
+    top: 90px;
+}
